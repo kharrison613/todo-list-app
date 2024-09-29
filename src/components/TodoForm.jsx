@@ -17,9 +17,9 @@ const TodoForm = ({ dispatch }) => {
         type="text"
         value={todoText}
         onChange={(e) => setTodoText(e.target.value)}
-        placeholder="Add a new todo"
+        placeholder="Add a new To Do"
       />
-      <button type="submit">Add Todo</button>
+      <button type="submit">Add To Do</button>
     </form>
   );
 };
